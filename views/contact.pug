@@ -1,0 +1,11 @@
+extends base.pug
+block scripts 
+    script(src="../static/index.js")
+block content
+    div#main-content
+      form(action= "/contact", method= "post", class= "myForm")
+         <input type="text" class= "myinput"  name="name" placeholder="Enter your name..">
+          <input type="email" class= "myinput" name="email" placeholder="Enter your email..">
+         <input type="number" class= "myinput" name="phone_no" placeholder="Enter your number..">
+         <input type="password" class= "myinput" name="password" placeholder="enter your password..">
+         <button type="submit"  id="btn">submit</button>

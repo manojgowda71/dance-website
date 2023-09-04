@@ -1,0 +1,39 @@
+
+.one a{
+    background-color: black;
+    color: white;
+}
+#main-content{
+    height: 86vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.myForm{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    width: 30%;
+    text-align: center;
+    margin: 8px 0px;
+    padding: 8px 10px;
+    font-size: 1.1rem;
+    border: 1px solid black;
+}
+#btn{
+    margin-top: 8px;
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#btn:hover{
+    color: black;
+    background-color: white;
+}
